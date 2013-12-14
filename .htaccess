@@ -1,8 +1,5 @@
 ErrorDocument 404 "http://motorenovace.com/404.html"
-DirectoryIndex index.php
 Options -Indexes
 RewriteEngine on
 
 RewriteRule ^(.*)\.html$ index.php?page=$1 [L,QSA]
-Rewritecond %{HTTP_HOST} ^www.motorenovace.com$
-Rewriterule ^(.*) http://motorenovace.com/$1 [QSA,L,R=301]

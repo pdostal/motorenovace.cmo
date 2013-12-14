@@ -29,7 +29,6 @@
 		$lang = $_SESSION['lang'];
 	} else {
 		$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-		session_register('lang');
 		$_SESSION['lang'] = $lang;
 	}
 	$lang_httpinput = httpinput('lang');
@@ -58,7 +57,7 @@
 		redirect("404.html");
 	}
 	$pagename = str_replace("_", " ", $page);
-	echo '<?xml version="1.0" encoding="urf-8"?>'."\n";
+	echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
