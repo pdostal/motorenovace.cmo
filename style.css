@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo);
-@import url(http://fonts.googleapis.com/css?family=Tangerine);
+@import url(://fonts.googleapis.com/css?family=Arvo);
+@import url(://fonts.googleapis.com/css?family=Tangerine);
 html {
 	background-image: url("background.png");
 	background-color: #523112;
@@ -25,7 +25,7 @@ a {
 	font-weight: bold;
 }
 img {
-	background: url(http://motorenovace.com/clock.png) no-repeat bottom right;
+	background: url(://motorenovace.com/clock.png) no-repeat bottom right;
 	border: 5px #996633 solid;
 }
 .normimg {

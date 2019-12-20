@@ -1,3 +1,3 @@
-<?
-	include("./inc/Francie.php");
+<?php
+  include("./inc/Francie.php");
 ?>

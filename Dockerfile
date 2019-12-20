@@ -1,0 +1,9 @@
+FROM php:5.6-apache
+RUN a2enmod rewrite
+COPY img/ /var/www/html/img
+COPY inc/ /var/www/html/inc
+COPY index.php /var/www/html/index.php
+COPY style.css /var/www/html/style.css
+COPY sitemap.xml /var/www/html/sitemap.xml
+COPY .htaccess /var/www/html/.htaccess
+

@@ -1,3 +1,3 @@
-<?
-	include("./inc/Pred.php");
+<?php
+  include("./inc/Pred.php");
 ?>

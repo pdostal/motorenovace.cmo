@@ -1,3 +1,3 @@
-<?
-	include("./inc/V.php");
+<?php
+  include("./inc/V.php");
 ?>

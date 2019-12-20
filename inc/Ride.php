@@ -1,3 +1,3 @@
-<?
-	include("./inc/Vyjizdka.php");
+<?php
+  include("./inc/Vyjizdka.php");
 ?>
