@@ -1,0 +1,25 @@
+#flags {
+    float: right;
+    z-index: 999;
+}
+#flags li {
+	list-style-type: none;
+	float: left;
+}
+.flag {
+	width: 30px;
+	height: 15px;
+	display: inline-block;
+	text-align: center;
+}
+.flag#selected {
+	opacity: 0.25;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+}
+@media print {
+	#flags {
+		display: none;
+	}
+}

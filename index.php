@@ -65,11 +65,11 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
 		<meta http-equiv="Content-Style-Type" content="text/css">
-		<script src="//global.pdostal.cz/lightbox/js/jquery-1.7.2.min.js"></script>
-		<script src="//global.pdostal.cz/lightbox/js/lightbox.js"></script>
-		<link href="//global.pdostal.cz/lightbox/css/lightbox.css" rel="stylesheet" />
+  <script src="<?php echo $url; ?>lightbox/js/jquery-1.7.2.min.js"></script>
+  <script src="<?php echo $url; ?>lightbox/js/lightbox.js"></script>
+  <link href="<?php echo $url; ?>lightbox/css/lightbox.css" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="<?php echo $url; ?>style.css">
-		<link rel="stylesheet" type="text/css" href="//global.pdostal.cz/flags/flags.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo $url; ?>flags/flags.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="<php? echo $url; ?>img/kuk.gif">
 		<meta http-equiv="Content-Language" content="cs">
 		<meta name="keywords" content="Pavel Dostál">
@@ -88,7 +88,7 @@
 	<body>
 		<div id="body">
 			<div id="header">
-				<div id="language"><?php if ($lang == "cs") { ?><a href="?lang=en"><img class="flag" src="https://global.pdostal.cz/flags/en.svg" alt="anglická vlajka" /></a><img class="flag" id="selected" src="https://global.pdostal.cz/flags/cz.svg" alt="česká vlajka" /><?php } else { ?><img class="flag" id="selected" src="https://global.pdostal.cz/flags/en.svg" alt="english flag" /><a href="?lang=cs"><img class="flag" src="https://global.pdostal.cz/flags/cz.svg" alt="czech flag" /></a><?php } ?></div>
+        <div id="language"><?php if ($lang == "cs") { ?><a href="?lang=en"><img class="flag" src="<?php echo $url; ?>flags/en.svg" alt="anglická vlajka" /></a><img class="flag" id="selected" src="<?php echo $url; ?>flags/cz.svg" alt="česká vlajka" /><?php } else { ?><img class="flag" id="selected" src="<?php echo $url; ?>flags/en.svg" alt="english flag" /><a href="?lang=cs"><img class="flag" src="<?php echo $url; ?>flags/cz.svg" alt="czech flag" /></a><?php } ?></div>
 				<h1><img class="normimg" src="img/motorenovace.png" width="600" height="100" alt="motorenovace"></h1>
 <?php
 	if ($lang == "cs") {
